@@ -1,0 +1,36 @@
+# Conclusiones del Ejercicio de Automatización SauceDemo
+
+## Hallazgos
+
+***Éxito en la Automatización del Flujo E2E:
+** Se logró automatizar completamente el flujo de compra en SauceDemo, cubriendo la autenticación, adición de productos
+al carrito, visualización del carrito, completado del formulario de compra y la confirmación final.
+
+***Robustez con Screenplay:
+** El patrón Screenplay demostró ser muy eficaz para la separación de responsabilidades (Quién, Qué, Cómo),lo que resultó en un
+código de prueba más legible, mantenible y escalable. Las Tareas, Preguntas y la definición de UI fueron claras y fáciles de entender.
+
+***Claridad de Reportes con Serenity BDD y Cucumber:
+** La integración de Serenity BDD con Cucumber generó reportes HTML detallados, que incluyen capturas de pantalla,
+pasos ejecutados y resultados de las aserciones, facilitando la depuración y el entendimiento del flujo de prueba.
+
+***Gestión de Dependencias con Maven:
+** Maven manejó eficientemente las dependencias del proyecto, asegurando que todas las bibliotecas necesarias estuvieran disponibles
+en las versiones correctas.
+
+***Uso de WebDriverManager:
+**La inclusión de WebDriverManager simplificó la gestión del ChromeDriver, eliminando la necesidad de descargar y especificar
+manualmente la ruta del driver.
+
+## Conclusiones
+
+Este ejercicio reafirma la efectividad de la combinación de Serenity BDD y el patrón Screenplay para la automatización de pruebas funcionales.
+La modularidad y la legibilidad que ofrece Screenplay son fundamentales para proyectos de automatización de gran escala, permitiendo
+a equipos de QA y desarrolladores colaborar de manera más eficiente.
+
+La adopción de Cucumber para la definición de escenarios con Gherkin mejora la comunicación entre los stakeholders técnicos y
+no técnicos, al permitir que los casos de prueba se escriban en un lenguaje más cercano al negocio.
+
+Se recomienda mantener una disciplina rigurosa en la definición de tareas atómicas y preguntas específicas para maximizar
+los beneficios de Screenplay en futuras implementaciones. La facilidad para extender y adaptar este framework lo convierte
+en una excelente elección para proyectos de automatización de pruebas web.

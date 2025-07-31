@@ -1,10 +1,10 @@
 package com.saucedemo.automation.tasks;
 
+import net.serenitybdd.annotations.Step;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.waits.WaitUntil;
-import net.thucydides.core.annotations.Steps;
 import com.saucedemo.automation.ui.ProductsPage;
 
 import java.util.List;
@@ -25,7 +25,7 @@ public class AddProductsToCart implements Task {
     }
 
     @Override
-    @Step("{0} adds products to the cart: #productNames")
+    @Step("{0} añade productos al carrito: #productNames")
     public <T extends Actor> void performAs(T actor) {
         for (String productName : productNames) {
             actor.attemptsTo(

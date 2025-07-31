@@ -5,7 +5,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.waits.WaitUntil;
-import net.thucydides.core.annotations.Step;
+import net.serenitybdd.annotations.Step;
 import com.saucedemo.automation.ui.CheckoutPage;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
@@ -28,7 +28,7 @@ public class FillCheckoutForm implements Task {
     }
 
     @Override
-    @Step("{0} fills checkout form with details: #firstName, #lastName, #zipCode")
+    @Step("{0} rellena el formulario de pago con los datos: #firstName, #lastName, #zipCode")
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
                 WaitUntil.the(CheckoutPage.FIRST_NAME_FIELD, isVisible()).forNoMoreThan(10).seconds(),

@@ -1,0 +1,13 @@
+com\saucedemo\automation\tasks\FillCheckoutForm.class
+com\saucedemo\automation\ui\ProductsPage.class
+com\saucedemo\automation\tasks\Login.class
+com\saucedemo\automation\runners\PurchaseFlowRunner.class
+com\saucedemo\automation\questions\OrderConfirmation.class
+com\saucedemo\automation\ui\CheckoutPage.class
+com\saucedemo\automation\AppTest.class
+com\saucedemo\automation\tasks\ProceedToCheckout.class
+com\saucedemo\automation\ui\ShoppingCartPage.class
+com\saucedemo\automation\tasks\FinalizePurchase.class
+com\saucedemo\automation\tasks\AddProductsToCart.class
+com\saucedemo\automation\stepdefinitions\PurchaseFlowStepDefinitions.class
+com\saucedemo\automation\ui\LoginPage.class

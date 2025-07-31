@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Flujo de compra completo en SauceDemo" skipped="0" tests="1" time="30.41" timestamp="2025-07-30 11:37:26"><testcase name="Compra de dos articulos"><error message="Could not instantiate class org.openqa.selenium.edge.EdgeDriver" type="net.thucydides.core.webdriver.DriverConfigurationError">Could not instantiate class org.openqa.selenium.edge.EdgeDriver</error><system-err>Could not instantiate class org.openqa.selenium.edge.EdgeDriver&#13;
+com.saucedemo.automation.stepdefinitions.PurchaseFlowStepDefinitions.theUserIsOnTheSauceDemoLoginPage(PurchaseFlowStepDefinitions.java:32)&#13;
+</system-err></testcase></testsuite>

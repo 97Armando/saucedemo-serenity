@@ -11,7 +11,7 @@
   <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>17</java.version>
-        <serenity.version>4.1.10</serenity.version> <serenity.cucumber.version>4.0.1</serenity.cucumber.version>
+        <serenity.version>4.2.22</serenity.version> <serenity.cucumber.version>4.2.22</serenity.cucumber.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <encoding>UTF-8</encoding>

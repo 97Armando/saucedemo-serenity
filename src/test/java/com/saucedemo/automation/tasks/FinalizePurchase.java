@@ -4,7 +4,7 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.waits.WaitUntil;
-import net.thucydides.core.annotations.Step;
+import net.serenitybdd.annotations.Step;
 import com.saucedemo.automation.ui.CheckoutPage;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
@@ -17,7 +17,7 @@ public class FinalizePurchase implements Task {
     }
 
     @Override
-    @Step("{0} finalizes the purchase")
+    @Step("{0} finaliza la compra")
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
                 WaitUntil.the(CheckoutPage.FINISH_BUTTON, isVisible()).forNoMoreThan(10).seconds(),

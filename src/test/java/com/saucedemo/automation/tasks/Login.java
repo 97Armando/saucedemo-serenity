@@ -5,7 +5,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.waits.WaitUntil;
-import net.thucydides.core.annotations.Step;
+import net.serenitybdd.annotations.Step;
 import com.saucedemo.automation.ui.LoginPage;
 
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
@@ -26,7 +26,7 @@ public class Login implements Task {
     }
 
     @Override
-    @Step("{0} logs in with username '#username' and password '#password'")
+    @Step("{0} inicia sesion con el nombre de usuario '#username' y contraseña '#password'")
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
                 WaitUntil.the(LoginPage.USERNAME_FIELD, isVisible()).forNoMoreThan(10).seconds(),

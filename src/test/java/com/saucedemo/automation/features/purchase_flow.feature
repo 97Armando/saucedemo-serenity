@@ -1,15 +1,15 @@
 @regression
-Feature: Complete purchase flow on SauceDemo
+Feature: Flujo de compra completo en SauceDemo
 
   As a standard user
   I want to buy products
   So that I can complete an order
 
-  Scenario: Successful purchase of two items
-    Given the user is on the SauceDemo login page
-    When the user logs in with "standard_user" and "secret_sauce"
-    And the user adds "Sauce Labs Backpack" and "Sauce Labs Bike Light" to the cart
-    And the user proceeds to checkout
-    And the user fills the checkout information with "John", "Doe" and "12345"
-    And the user finalizes the purchase
-    Then the user should see the confirmation message "THANK YOU FOR YOUR ORDER"
+  Scenario: Compra de dos articulos
+    Given el usuario esta en la pagina de inicio de sesion de SauceDemo
+    When el usuario inicia sesion con "visual_user" y "secret_sauce"
+    And el usuario añade "Sauce Labs Backpack" y "Sauce Labs Bike Light" a la cesta
+    And el usuario procede al pago
+    And el usuario rellena la informacion de pago con "John", "Maldonado" y "12345"
+    And el usuario finaliza la compra
+    Then el usuario deberia ver el mensaje de confirmacion "Thank you for your order!"
