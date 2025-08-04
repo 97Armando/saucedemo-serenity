@@ -26,7 +26,8 @@ Asegurece de tener instaladas las siguientes herramientas en su sistema:
 2.  Ejecutar las Pruebas:
     Abra una terminal en la raíz del proyecto y ejecute el siguiente comando Maven:
     mvn clean install
-    mvn clean verify
+    En la ruta src/test/java/com/saucedemo/automation/runners busque el archivo PurchaseFlowRunner.java, click derecho y click en Ejecutar
+    mvn verify
     
     Este comando compila el proyecto, ejecuta las pruebas definidas en los archivos '.feature' y generará los reportes.
 
