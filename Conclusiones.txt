@@ -24,7 +24,7 @@ manualmente la ruta del driver.
 
 ## Conclusiones
 
-Este ejercicio reafirma la efectividad de la combinación de Serenity BDD y el patrón Screenplay para la automatización de pruebas funcionales.
+Este ejercicio confirma la efectividad de la combinación de Serenity BDD y el patrón Screenplay para la automatización de pruebas funcionales.
 La modularidad y la legibilidad que ofrece Screenplay son fundamentales para proyectos de automatización de gran escala, permitiendo
 a equipos de QA y desarrolladores colaborar de manera más eficiente.
 
