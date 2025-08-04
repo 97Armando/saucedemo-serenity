@@ -15,7 +15,7 @@ Asegurece de tener instaladas las siguientes herramientas en su sistema:
 
 1.  JDK 17: Puede descargarlo desde [Oracle](https://www.oracle.com/java/technologies/downloads/)
 2.  Maven 3.9.10: Descárguelo desde [Apache Maven](https://maven.apache.org/download.cgi) y configure sus variables de entorno 'M2_HOME' y 'PATH'.
-3.  Navegador Edge: Asegurece de tener una versión reciente. WebDriverManager se encargará de descargar el ChromeDriver compatible.
+3.  Navegador Edge: Asegurece de tener una versión reciente. WebDriverManager se encargará de descargar el EdgeDriver compatible.
 
 ## Instrucciones de Ejecución
 
